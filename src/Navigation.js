@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 
 class Navigation extends Component  {
@@ -7,9 +7,9 @@ class Navigation extends Component  {
         return (
             <div className="navbar">
                 <ul>
-                    <li><Link className="navLink" href="/">Home</Link></li>
-                    <li><Link className="navLink" href="/projects">Projects</Link></li>
-                    <li><Link className="navLink" href="/aboutme">About Me</Link></li>
+                    <li><Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>About Me</Link></li>
+                    <li><Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>Projects</Link></li>
+                    <li><Link activeClass="active" to="Contact" spy={true} smooth={true} duration={1000}>Contact Info</Link></li>
                 </ul>
             </div>
         )
