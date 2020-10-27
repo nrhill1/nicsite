@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
+import nic from './blueplaid.jpg'
 import './App.css';
+import Navigation from './Navigation';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+
+  render() {
+    return (
+      <div className="App">
+          <h1>Hi, my name is Nic!</h1>
+          <p>I am a software engineer who loves to build apps!</p>
+          <Navigation />
+          <img className="nic" alt="Nic is wearing a blue plaid shirt and squinting." src={nic} ></img>
+          <div className="about">
+ 
+          </div>
+      </div>
+
+    );
+  }
 }
 
 export default App;
