@@ -12,3 +12,15 @@ h1 {
   max-width: 400px;
   max-height: 450px;
 }
+
+.navbar {
+  background-color: bisque;
+  text-decoration: none;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar li {
+  list-style: square;
+}
