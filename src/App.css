@@ -1,10 +1,14 @@
+html {
+  background-color: whitesmoke;
+}
+
 .App {
   text-align: center;
   background-color: whitesmoke;
 }
 
 .about {
-  background-color: lightgray;
+  background-color: ghostwhite;
   height: 40rem;
   margin: 0 auto;
 }
@@ -23,7 +27,7 @@ h2 {
 }
 
 header {
-  background: ghostwhite;
+  background: lightgray;
 }
 
 .fw {
@@ -70,6 +74,7 @@ header {
 
 .navbar li {
   list-style: none;
+  align-self: center;
 }
 
 .navbar li:hover {
