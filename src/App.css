@@ -5,23 +5,35 @@
 
 .about {
   background-color: pink;
+  height: 20rem;
+  margin: 0 auto;
 }
 
 h1 {
-  font-family: "Noto Sans TC";
+  font-family: 'Cairo', sans-serif;
   align-self: center;
   font-size: 6em;
 }
 
+h2 {
+  font-family: 'Cairo', sans-serif;
+  font-size: 4.5em;
+  text-decoration: underline;
+
+}
+
 .fw {
-  max-height: 300px;
-  max-width: 550px;
+  max-height: 500px;
+  max-width: 850px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0.3px whitesmoke;
 }
 
 .nic {
   max-width: 800px;
   max-height: 850px;
   border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar {
@@ -29,13 +41,27 @@ h1 {
   text-decoration: none;
   margin: 0 auto;
   text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 1.8em
 }
 
 .navbar li {
   list-style: none;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .projects {
   background-color: seagreen;
+  height: 60rem;
+  margin: 0 auto;
+}
+
+.projects p {
+  margin-top: 20px;
 }
 
