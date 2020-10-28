@@ -23,7 +23,12 @@ h2 {
   font-family: 'Cairo', sans-serif;
   font-size: 4.5em;
   text-decoration: underline;
+}
 
+h3 {
+  font-family: 'Cairo', sans-serif;
+  font-size: 2.5em;
+  text-decoration: underline;
 }
 
 header {
@@ -47,6 +52,7 @@ header {
 .logo {
   max-width: 40px;
   max-height: 40px;
+  margin: 10px;
 }
 
 .logo:hover {
