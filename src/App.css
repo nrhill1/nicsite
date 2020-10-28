@@ -75,6 +75,8 @@ header {
 .navbar li {
   list-style: none;
   align-self: center;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .navbar li:hover {
