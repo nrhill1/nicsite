@@ -9,8 +9,8 @@ class Contact extends Component {
         <div>
             <h1>Contact Me</h1>
             <h3>nrhill1@gmail.com</h3>
-            <a href="https://www.linkedin.com/in/nicolasrussellhill/" ><img a="My LinkedIn Profile" src={lilogo} className="logo"></img></a>
-            <a href="https://github.com/nrhill1" ><img a="My GitHub" src={gitlogo} className="logo"></img></a>
+            <a href="https://www.linkedin.com/in/nicolasrussellhill/" ><img alt="My LinkedIn Profile" src={lilogo} className="logo"></img></a>
+            <a href="https://github.com/nrhill1" ><img alt="My GitHub" src={gitlogo} className="logo"></img></a>
 
         </div>
         )
