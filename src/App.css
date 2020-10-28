@@ -1,11 +1,11 @@
 .App {
   text-align: center;
-  background-color: slateblue;
+  background-color: whitesmoke;
 }
 
 .about {
-  background-color: pink;
-  height: 20rem;
+  background-color: lightgray;
+  height: 100rem;
   margin: 0 auto;
 }
 
@@ -26,7 +26,19 @@ h2 {
   max-height: 500px;
   max-width: 850px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border: 0.3px whitesmoke;
+  border: 0.3px black double;
+}
+
+.fw:hover {
+  box-shadow: -6px 3px 84px 30px rgba(0,0,0,0.79);
+  -webkit-box-shadow: -6px 3px 84px 30px rgba(0,0,0,0.79);
+  -moz-box-shadow: -6px 3px 84px 30px rgba(0,0,0,0.79);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.logo {
+  max-width: 40px;
+  max-height: 40px;
 }
 
 .nic {
@@ -37,7 +49,7 @@ h2 {
 }
 
 .navbar {
-  background-color: skyblue;
+  background-color: gray;
   text-decoration: none;
   margin: 0 auto;
   text-align: center;
@@ -50,14 +62,15 @@ h2 {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
-  max-width: 500px;
+  font-family: 'Kanit', sans-serif;
+  max-width: 750px;
   margin: 0 auto;
+  font-size: 1.5em;
 }
 
 .projects {
-  background-color: seagreen;
-  height: 60rem;
+  background-color: gainsboro;
+  height: 100rem;
   margin: 0 auto;
 }
 

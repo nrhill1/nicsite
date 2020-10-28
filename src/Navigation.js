@@ -9,7 +9,7 @@ class Navigation extends Component  {
                 <ul>
                     <li><Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>About Me</Link></li>
                     <li><Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>Projects</Link></li>
-                    <li><Link activeClass="active" to="Contact" spy={true} smooth={true} duration={1000}>Contact Info</Link></li>
+                    <li><Link activeClass="active" to="contact" spy={true} smooth={true} duration={1000}>Contact Info</Link></li>
                 </ul>
             </div>
         )
