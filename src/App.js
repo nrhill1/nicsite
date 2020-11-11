@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link, animateScroll as scroll } from "react-scroll";
 import About from './Components/About'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
